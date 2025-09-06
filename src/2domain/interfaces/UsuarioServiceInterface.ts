@@ -1,4 +1,7 @@
-import { AtualizarUsuarioDTO, CriarUsarioDTO, Usuario, ViewUsuarioDTO } from '../../1entidades/usuarios';
+import { Usuario } from '../../1entidades/Usuario';
+import { ViewUsuarioDTO } from "../../1entidades/ViewUsuarioDTO";
+import { AtualizarUsuarioDTO } from '../../1entidades/dtos/AtualizarUsuarioDTO';
+import { CriarUsarioDTO } from "../../1entidades/dtos/CriarUsarioDTO";
 
 export default interface UsuarioServiceInterface {
 

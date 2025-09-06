@@ -1,5 +1,5 @@
 import { UsuarioSchema } from '../../3infra/repositorios/UsuarioSchema';
-import { Usuario } from '../../1entidades/usuarios';
+import { Usuario } from '../../1entidades/Usuario';
 
 interface UsuarioRepositorioInterface {
     getUsuarios(): UsuarioSchema[];

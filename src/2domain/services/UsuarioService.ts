@@ -1,4 +1,7 @@
-import { ViewUsuarioDTO, CriarUsarioDTO, AtualizarUsuarioDTO, Usuario } from '../../1entidades/usuarios';
+import { Usuario } from '../../1entidades/Usuario';
+import { ViewUsuarioDTO } from "../../1entidades/ViewUsuarioDTO";
+import { AtualizarUsuarioDTO } from '../../1entidades/dtos/AtualizarUsuarioDTO';
+import { CriarUsarioDTO } from "../../1entidades/dtos/CriarUsarioDTO";
 import NotFoundException from '../exceptions/NotFoundExpection';
 import { inject, injectable } from 'inversify';
 import 'reflect-metadata';

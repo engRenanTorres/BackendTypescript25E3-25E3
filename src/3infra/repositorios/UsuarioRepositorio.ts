@@ -2,7 +2,7 @@ import path from 'path';
 import fs from 'fs';
 import { DBSchema } from './DBSchema';
 import { UsuarioSchema } from './UsuarioSchema';
-import { Usuario } from '../../1entidades/usuarios';
+import { Usuario } from '../../1entidades/Usuario';
 import UsuarioRepositorioInterface from '../../2domain/interfaces/UsuarioRepositorioInterface';
 import 'reflect-metadata';
 import { injectable } from 'inversify';

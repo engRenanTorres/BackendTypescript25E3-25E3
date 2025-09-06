@@ -1,5 +1,7 @@
 import { Router, Request, Response } from 'express';
-import { AtualizarUsuarioDTO, CriarUsarioDTO, Usuario } from '../../1entidades/usuarios';
+import { Usuario } from '../../1entidades/Usuario';
+import { AtualizarUsuarioDTO } from '../../1entidades/dtos/AtualizarUsuarioDTO';
+import { CriarUsarioDTO } from "../../1entidades/dtos/CriarUsarioDTO";
 import { body, param, validationResult } from 'express-validator';
 import BadRequestException from '../../2domain/exceptions/BadRequestException';
 import UsuarioServiceInterface from '../../2domain/interfaces/UsuarioServiceInterface';
